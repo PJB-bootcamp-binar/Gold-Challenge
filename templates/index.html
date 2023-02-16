@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Text Cleaning App</title>
+	<!-- Import Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-dark bg-dark">
+			<a class="navbar-brand" href="#">Text Cleaning App</a>
+		</nav>
+	</header>
+
+	<main class="container mt-4">
+		<div class="card">
+			<div class="card-header">Input Text</div>
+			<div class="card-body">
+				<form method="POST" action="{{ url_for('clean') }}">
+					<div class="form-group">
+						<label for="input_text">Input Text:</label>
+						<textarea class="form-control" id="input_text" name="input_text" rows="10" cols="50"></textarea>
+					</div>
+					<button type="submit" class="btn btn-primary">Clean Text</button>
+				</form>
+			</div>
+		</div>
+	</main>
+
+	<!-- Import Bootstrap JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
