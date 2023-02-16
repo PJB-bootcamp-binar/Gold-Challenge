@@ -2,6 +2,7 @@
 CLEANING TEXT APP
 
 Spesifikasi Aplikasi Clean Text
+Slides : https://docs.google.com/presentation/d/14ShmRUYYczcZ0eFploiCNbwsr2I0Td5536zxChVi3fs/edit?usp=sharing
 Fitur Utama
 
     Input teks: pengguna dapat memasukkan teks melalui form input.
