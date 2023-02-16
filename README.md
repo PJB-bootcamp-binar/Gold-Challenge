@@ -19,6 +19,7 @@ Desain Teknis
     Framework: Flask
     Dependensi: pandas, numpy, re, string, nltk, nltk.corpus, Sastrawi.Stemmer.StemmerFactory,Sastrawi.StopWordRemover,matplotlib
     Metode HTTP: POST untuk mengirimkan data dari form, GET untuk menampilkan halaman hasil.
+    Pada kamus new_alay.csv telah dilakukan penambahan dataset 
 
 Rancangan URL
 
